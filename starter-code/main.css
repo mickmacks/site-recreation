@@ -10,15 +10,12 @@ h1, h2 {
   font-family: 'Rock Salt', cursive;
   margin: 0;
 }
-
 h1 {
 	font-size: 2.75em;
 }
-
 h2 {
 	font-size: 1.5em;
 }
-
 img {
 	border: 2px dashed #00aeef;
     margin-right: 20px;
@@ -63,23 +60,27 @@ nav ul li:first-child {
 .content {
 	margin: 0 auto;
 	max-width: 1024px;
+	padding: 0 20px;
+	width: 100%;
 }
 .row {
 
 }
 .column {
 	display: inline-block;
-	width: 250px;
-	height: 250px;
-	margin: 10px;
+	margin-right: 20px;
+	width: 30%
+	vertical-align: top;
+}
+.note, .request {
+	min-height: 180px;
+	padding: 10px 20px;
 }
 .note {
 	color: white;
 	background-color: #4267b1;
 	border: 1px solid #ddd;
-	padding: 20px;
 }
 .request {
 	border: 1px solid #ddd;
-	padding: 20px;
 }
