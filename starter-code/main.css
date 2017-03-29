@@ -12,7 +12,7 @@ h1, h2 {
 }
 
 h1 {
-	font-size: 2.5em;
+	font-size: 2.75em;
 }
 
 h2 {
@@ -33,14 +33,21 @@ button {
 	padding: 5px 8px;
 }
 nav ul {
-	padding-bottom: 20px;
+	margin-bottom: 10px;
+	padding: 0px;
 }
 nav ul li {
 	display: inline-block;
 	padding: 0 30px;
 }
+nav ul li:first-child {
+	padding-left: 0px;
+}
 .header {
 	background-color: #77ccee;
+	border-bottom: 1px solid #4267b1;
+	margin-bottom: 20px;
+	padding-top: 20px;
 }
 .header h1 {
 	display: inline-block;
@@ -62,8 +69,9 @@ nav ul li {
 }
 .column {
 	display: inline-block;
-	max-height: 250px;
-	max-width: 250px;
+	padding: 40px;
+	height: 250px;
+	width: 250px;
 }
 .note {
 	color: white;
