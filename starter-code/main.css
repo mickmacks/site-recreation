@@ -69,14 +69,17 @@ nav ul li:first-child {
 }
 .column {
 	display: inline-block;
-	padding: 40px;
-	height: 250px;
 	width: 250px;
+	height: 250px;
+	margin: 10px;
 }
 .note {
 	color: white;
 	background-color: #4267b1;
+	border: 1px solid #ddd;
+	padding: 20px;
 }
 .request {
 	border: 1px solid #ddd;
+	padding: 20px;
 }
