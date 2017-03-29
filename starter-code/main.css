@@ -10,6 +10,13 @@ h1, h2 {
   font-family: 'Rock Salt', cursive;
   margin: 0;
 }
+
+h1 {
+}
+
+h2 {
+}
+
 img {
 
 }
@@ -26,7 +33,7 @@ nav ul li {
 
 }
 .header {
-
+	background-color: #77ccee;
 }
 .header h1 {
 
